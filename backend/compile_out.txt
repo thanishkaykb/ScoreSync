@@ -1,0 +1,66 @@
+﻿node.exe : [31m[1mError[22m[39m 
+[31m[1mHH8:[22m[39m There's one or more 
+errors in your config file:
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ( 
+   [31m[1mError...ur config file::String)  
+   [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandEr 
+   ror
+ 
+
+  * Invalid account: #0 for network: shardeum 
+- private key too short, expected 32 bytes
+  * Invalid account: #0 for network: 
+baseSepolia - private key too short, expected 
+32 bytes
+  * Invalid account: #0 for network: sepolia 
+- private key too short, expected 32 bytes
+
+To learn more about Hardhat's configuration, 
+please go to https://v2.hardhat.org/config/
+
+HardhatError: HH8: There's one or more errors 
+in your config file:
+
+  * Invalid account: #0 for network: shardeum 
+- private key too short, expected 32 bytes
+  * Invalid account: #0 for network: 
+baseSepolia - private key too short, expected 
+32 bytes
+  * Invalid account: #0 for network: sepolia 
+- private key too short, expected 32 bytes
+
+To learn more about Hardhat's configuration, 
+please go to https://v2.hardhat.org/config/
+    at validateConfig (C:\Users\TEJESHWAR\Down
+loads\Cred-Fi-main\Cred-Fi-main\backend\node_m
+odules\hardhat\src\internal\core\config\config
+-validation.ts:374:9)
+    at loadConfigAndTasks (C:\Users\TEJESHWAR\
+Downloads\Cred-Fi-main\Cred-Fi-main\backend\no
+de_modules\hardhat\src\internal\core\config\co
+nfig-loading.ts:121:3)
+    at main (C:\Users\TEJESHWAR\Downloads\Cred
+-Fi-main\Cred-Fi-main\backend\node_modules\har
+dhat\src\internal\cli\cli.ts:221:62)
+    at Object.<anonymous> (C:\Users\TEJESHWAR\
+Downloads\Cred-Fi-main\Cred-Fi-main\backend\no
+de_modules\hardhat\src\internal\cli\cli.ts:483
+:1)
+    at Module._compile 
+(node:internal/modules/cjs/loader:1706:14)
+    at Object..js 
+(node:internal/modules/cjs/loader:1839:10)
+    at Module.load 
+(node:internal/modules/cjs/loader:1441:32)
+    at Function._load 
+(node:internal/modules/cjs/loader:1263:12)
+    at TracingChannel.traceSync 
+(node:diagnostics_channel:322:14)
+    at wrapModuleLoad 
+(node:internal/modules/cjs/loader:237:24)
